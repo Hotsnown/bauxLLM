@@ -1,0 +1,170 @@
+{
+    "sections": [
+      {
+        "title": "Roles of the Parties",
+        "questions": [
+          {
+            "title": "Lessor",
+            "question": "[Basic Lease Information] What is the lessor's name ?"
+          },
+          {
+            "title": "Lessee",
+            "question": "[Basic Lease Information] What is the lessee's name ?"
+          }
+        ]
+      },
+      {
+        "title": "Type of Lease",
+        "questions": [
+          {
+            "title": "Type",
+            "question": "What is the type of lease?"
+          }
+        ]
+      },
+      {
+        "title": "The Premises",
+        "questions": [
+          {
+            "title": "Address of the premises",
+            "question": "What is the address of the premises?"
+          },
+          {
+            "title": "Size of the premises",
+            "question": "What is the square footage of the premises?"
+          },
+          {
+            "title": "Nature of the premises",
+            "question": "What is the nature of the rented property? (Here we are looking if it’s land, a building, parking, etc.)"
+          },
+          {
+            "title": "Use of the premises",
+            "question": "What is the intended use of the premises?"
+          }
+        ]
+      },
+      {
+        "title": "Term",
+        "questions": [
+          {
+            "title": "Lease signing date",
+            "question": "[Basic Lease Information] What is the date of signing the lease?"
+          },
+          {
+            "title": "Commencement date",
+            "question": "[Basic Lease Information] What is the commencement date of the lease?"
+          },
+          {
+            "title": "Duration of the lease",
+            "question": "[Basic Lease Information] What is the duration of the lease?"
+          },
+          {
+            "title": "End date",
+            "question": "[Basic Lease Information] What is the end date of the lease?"
+          },
+          {
+            "title": "Lessee’s termination option",
+            "question": "Does the lessee have an option to terminate the lease?"
+          },
+          {
+            "title": "Renewal conditions",
+            "question": "What are the conditions for the renewal of the lease?"
+          }
+        ]
+      },
+      {
+        "title": "Rent",
+        "questions": [
+          {
+            "title": "Annual rent",
+            "question": "What is the annual rent amount?"
+          },
+          {
+            "title": "Payment frequency",
+            "question": "Is the rent payment quarterly?"
+          },
+          {
+            "title": "Revision",
+            "question": "Is the rent subject to revision?"
+          },
+          {
+            "title": "Revision index",
+            "question": "What is the revision index?"
+          },
+          {
+            "title": "Security deposit amount",
+            "question": "What is the amount of the security deposit?"
+          },
+          {
+            "title": "Type of guarantee",
+            "question": "What are the guarantees for rent payment?"
+          }
+        ]
+      },
+      {
+        "title": "Change of Control",
+        "questions": [
+          {
+            "title": "Lessee change of control",
+            "question": "Are there any provisions related to the change of control of the lessee?"
+          }
+        ]
+      },
+      {
+        "title": "Transfer of Lease",
+        "questions": [
+          {
+            "title": "Unrestricted assignment of lease rights",
+            "question": "Can the lessee transfer the lease without the lessor’s written consent?"
+          },
+          {
+            "title": "Lease transfer (to whom)",
+            "question": "By exception to whom can the lease rights be assigned?"
+          },
+          {
+            "title": "Subleasing (yes/no)",
+            "question": "Can the lessee sublease the premises?"
+          },
+          {
+            "title": "Subleasing (to whom)",
+            "question": "By exception to whom can the premises be subleased without prior authorization from the lessor?"
+          }
+        ]
+      },
+      {
+        "title": "Specific Clauses",
+        "questions": [
+          {
+            "title": "Condition of the premises upon return",
+            "question": "In what condition must the Lessee return the premises?"
+          },
+          {
+            "title": "Restoration to original condition",
+            "question": "Must the premises be restored to their original condition?"
+          },
+          {
+            "title": "State of risks and pollution (ERP)",
+            "question": "Is the statement of risks and pollution annexed to the lease?"
+          },
+          {
+            "title": "Energy performance diagnosis",
+            "question": "Is the Energy Performance Diagnosis or DPE annexed to the lease?"
+          }
+        ]
+      },
+      {
+        "title": "Jurisdiction and Applicable Law",
+        "questions": [
+          {
+            "title": "Applicable law",
+            "question": "What is the applicable law?"
+          },
+          {
+            "title": "Competent jurisdiction",
+            "question": "What is the competent jurisdiction?"
+          }
+        ]
+      }
+    ]
+  }
+  
