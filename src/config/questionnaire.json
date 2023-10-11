@@ -1,170 +1,549 @@
 {
     "sections": [
-      {
-        "title": "Roles of the Parties",
-        "questions": [
-          {
-            "title": "Lessor",
-            "question": "[Basic Lease Information] What is the lessor's name ?"
-          },
-          {
-            "title": "Lessee",
-            "question": "[Basic Lease Information] What is the lessee's name ?"
-          }
-        ]
-      },
-      {
-        "title": "Type of Lease",
-        "questions": [
-          {
-            "title": "Type",
-            "question": "What is the type of lease?"
-          }
-        ]
-      },
-      {
-        "title": "The Premises",
-        "questions": [
-          {
-            "title": "Address of the premises",
-            "question": "What is the address of the premises?"
-          },
-          {
-            "title": "Size of the premises",
-            "question": "What is the square footage of the premises?"
-          },
-          {
-            "title": "Nature of the premises",
-            "question": "What is the nature of the rented property? (Here we are looking if it’s land, a building, parking, etc.)"
-          },
-          {
-            "title": "Use of the premises",
-            "question": "What is the intended use of the premises?"
-          }
-        ]
-      },
-      {
-        "title": "Term",
-        "questions": [
-          {
-            "title": "Lease signing date",
-            "question": "[Basic Lease Information] What is the date of signing the lease?"
-          },
-          {
-            "title": "Commencement date",
-            "question": "[Basic Lease Information] What is the commencement date of the lease?"
-          },
-          {
-            "title": "Duration of the lease",
-            "question": "[Basic Lease Information] What is the duration of the lease?"
-          },
-          {
-            "title": "End date",
-            "question": "[Basic Lease Information] What is the end date of the lease?"
-          },
-          {
-            "title": "Lessee’s termination option",
-            "question": "Does the lessee have an option to terminate the lease?"
-          },
-          {
-            "title": "Renewal conditions",
-            "question": "What are the conditions for the renewal of the lease?"
-          }
-        ]
-      },
-      {
-        "title": "Rent",
-        "questions": [
-          {
-            "title": "Annual rent",
-            "question": "What is the annual rent amount?"
-          },
-          {
-            "title": "Payment frequency",
-            "question": "Is the rent payment quarterly?"
-          },
-          {
-            "title": "Revision",
-            "question": "Is the rent subject to revision?"
-          },
-          {
-            "title": "Revision index",
-            "question": "What is the revision index?"
-          },
-          {
-            "title": "Security deposit amount",
-            "question": "What is the amount of the security deposit?"
-          },
-          {
-            "title": "Type of guarantee",
-            "question": "What are the guarantees for rent payment?"
-          }
-        ]
-      },
-      {
-        "title": "Change of Control",
-        "questions": [
-          {
-            "title": "Lessee change of control",
-            "question": "Are there any provisions related to the change of control of the lessee?"
-          }
-        ]
-      },
-      {
-        "title": "Transfer of Lease",
-        "questions": [
-          {
-            "title": "Unrestricted assignment of lease rights",
-            "question": "Can the lessee transfer the lease without the lessor’s written consent?"
-          },
-          {
-            "title": "Lease transfer (to whom)",
-            "question": "By exception to whom can the lease rights be assigned?"
-          },
-          {
-            "title": "Subleasing (yes/no)",
-            "question": "Can the lessee sublease the premises?"
-          },
-          {
-            "title": "Subleasing (to whom)",
-            "question": "By exception to whom can the premises be subleased without prior authorization from the lessor?"
-          }
-        ]
-      },
-      {
-        "title": "Specific Clauses",
-        "questions": [
-          {
-            "title": "Condition of the premises upon return",
-            "question": "In what condition must the Lessee return the premises?"
-          },
-          {
-            "title": "Restoration to original condition",
-            "question": "Must the premises be restored to their original condition?"
-          },
-          {
-            "title": "State of risks and pollution (ERP)",
-            "question": "Is the statement of risks and pollution annexed to the lease?"
-          },
-          {
-            "title": "Energy performance diagnosis",
-            "question": "Is the Energy Performance Diagnosis or DPE annexed to the lease?"
-          }
-        ]
-      },
-      {
-        "title": "Jurisdiction and Applicable Law",
-        "questions": [
-          {
-            "title": "Applicable law",
-            "question": "What is the applicable law?"
-          },
-          {
-            "title": "Competent jurisdiction",
-            "question": "What is the competent jurisdiction?"
-          }
-        ]
-      }
+        {
+            "title": "Roles of the Parties",
+            "questions": [
+                {
+                    "title": "Lessor",
+                    "question": "[Basic Lease Information] What is the lessor's name ?",
+                    "definition": "The lessor is the person or entity who is leasing the property to the lessee. Their name, as listed on the lease agreement, identifies who the legal owner or manager of the property is.",
+                    "HYDEs": [
+                        "the lessor's name is Pine Properties LLC.",
+                        "the name of the lessor is Robertson Realty Group.",
+                        "the designated lessor is Maple Leaf Estates.",
+                        "the lessor identified is Sunburst Property Management.",
+                        "the lessor as per the lease is Horizon Holdings Inc."
+                    ]
+                },
+                {
+                    "title": "Lessee",
+                    "question": "[Basic Lease Information] What is the lessee's name ?",
+                    "definition": "The lessee is the person or entity who is leasing the property from the lessor. Their name, as listed on the lease agreement, identifies who the tenant is.",
+                    "HYDEs": [
+                        "the lessee's name is John Doe.",
+                        "the name of the lessee is Jane Smith Enterprises.",
+                        "the designated lessee is Riverside Corp.",
+                        "the lessee identified is Greenfield Industries.",
+                        "the lessee as per the lease is Blue Ocean LLC."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Type of Lease",
+            "questions": [
+                {
+                    "title": "Type",
+                    "question": "What is the type of lease?",
+                    "definition": "The type of lease refers to the specific arrangement between the lessor and lessee regarding the rental of the property. Common types include residential, commercial, and industrial leases, each with its own set of terms and conditions.",
+                    "HYDEs": [
+                        "the type of lease is residential.",
+                        "the lease is a commercial lease.",
+                        "it is an industrial lease agreement.",
+                        "the property is leased under a mixed-use lease.",
+                        "the lease is categorized as a retail lease."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "The Premises",
+            "questions": [
+                {
+                    "title": "Address of the premises",
+                    "question": "What is the address of the premises?",
+                    "definition": "The address of the premise in a lease agreement refers to the specific location of the property being leased. This should include the full street address, city, state, and zip code, and possibly the unit or suite number if applicable. This detailed information ensures that both the landlord and tenant are clear on the exact location of the leased property. It's crucial for legal and practical purposes, establishing where the tenant has a right to reside or conduct business under the terms of the lease.",
+                    "HYDEs": [
+                        "the premises is located at 123 Elm St, Springfield, IL, 62701.",
+                        "the property address is 456 Maple Ave, Suite 10B, Shelbyville, IL, 62565.",
+                        "the premises can be found at 789 Birch Blvd, Rivertown, TX, 78965.",
+                        "the location is 321 Cedar Drive, Lakeside, MI, 48723.",
+                        "the property's address is 654 Oak Lane, Hilltown, CO, 80123."
+                    ]
+                },
+                {
+                    "title": "Size of the premises",
+                    "question": "What is the square footage of the premises?",
+                    "definition": "The size of the premises refers to the total area, usually in square feet or square meters, of the property being leased. This measurement helps to define the space that the tenant has the right to use under the lease agreement.",
+                    "HYDEs": [
+                        "the premises is 2,500 square feet in size.",
+                        "the property covers an area of 1,200 square meters.",
+                        "the premises spans 3,400 square feet.",
+                        "the total area of the premises is 2,800 square feet.",
+                        "the size of the leased space is 1,500 square meters."
+                    ]
+                },
+                {
+                    "title": "Nature of the premises",
+                    "question": "What is the nature of the rented property? (Here we are looking if it’s land, a building, parking, etc.)",
+                    "definition": "The nature of the premises describes the type of property being leased, such as land, a building, parking space, etc. This distinction is important for understanding the terms of use and the rights and responsibilities of both the lessor and lessee.",
+                    "HYDEs": [
+                        "the premises is a standalone commercial building.",
+                        "the property in question is a residential apartment unit.",
+                        "the leased space is an open plot of land.",
+                        "the premises is a designated parking space in a multi-level garage.",
+                        "the property is a warehouse facility."
+                    ]
+                },
+                {
+                    "title": "Use of the premises",
+                    "question": "What is the intended use of the premises?",
+                    "definition": "The intended use of the premises outlines what activities the lessee is allowed to conduct on the property. This could include residential living, commercial operations, industrial activities, etc. The use must comply with zoning laws and other legal regulations.",
+                    "HYDEs": [
+                        "the premises is to be used for residential living purposes.",
+                        "the lessee intends to use the property for a retail store.",
+                        "the intended use is as an office space for a tech startup.",
+                        "the premises will serve as a manufacturing facility.",
+                        "the property is to be used as a yoga and fitness studio."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Term",
+            "questions": [
+                {
+                    "title": "Lease signing date",
+                    "question": "[Basic Lease Information] What is the date of signing the lease?",
+                    "definition": "The lease signing date is the date on which both the lessor and the lessee sign the lease agreement, thereby entering into a legally binding contract.",
+                    "HYDEs": [
+                        "the lease was signed on January 10th, 2023.",
+                        "the signing date of the lease is March 15th, 2023.",
+                        "the lease agreement was executed on July 5th, 2022.",
+                        "both parties signed the lease on October 25th, 2022.",
+                        "the lease was entered into on December 1st, 2022."
+                    ]
+                },
+                {
+                    "title": "Commencement date",
+                    "question": "[Basic Lease Information] What is the commencement date of the lease?",
+                    "definition": "The commencement date is the date on which the lease term begins, and the lessee is granted access to the premises.",
+                    "HYDEs": [
+                        "the lease commences on February 1st, 2023.",
+                        "the start date of the lease is April 1st, 2023.",
+                        "the lease agreement begins on August 1st, 2022.",
+                        "the lease term starts on November 1st, 2022.",
+                        "the commencement date is January 15th, 2023."
+                    ]
+                },
+                {
+                    "title": "End date",
+                    "question": "[Basic Lease Information] What is the end date of the lease?",
+                    "definition": "The end date of the lease refers to the date on which the lease term expires. After this date, the lease may be renewed, or the lessee might be required to vacate the premises, depending on the terms of the agreement.",
+                    "HYDEs": [
+                        "the lease concludes on January 31st, 2024.",
+                        "the lease terminates on March 31st, 2024.",
+                        "the lease agreement ends on July 31st, 2023.",
+                        "the lease expires on October 31st, 2023.",
+                        "the lease runs until December 15th, 2023."
+                    ]
+                },
+                {
+                    "title": "Lessee’s termination option",
+                    "question": "Does the lessee have an option to terminate the lease?",
+                    "definition": "The lessee’s termination option refers to any provision within the lease agreement that allows the lessee to end the lease before the end date, usually under specific conditions.",
+                    "HYDEs": [
+                        "Yes, the lessee has the option to terminate the lease with a 60-day written notice.",
+                        "No, the lessee does not have any provision to prematurely end the lease.",
+                        "Yes, the lessee can terminate the lease provided they pay a termination fee equivalent to three months' rent.",
+                        "The lessee has the right to terminate in the event of a significant breach by the lessor.",
+                        "Termination by the lessee is permissible if they relocate due to a job change that is over 50 miles away."
+                    ]
+                },
+                {
+                    "title": "Renewal Conditions",
+                    "questions": [
+                        {
+                            "title": "Renewal conditions",
+                            "question": "What are the conditions for the renewal of the lease?",
+                            "definition": "Renewal conditions outline the terms under which the lease can be renewed, including the process for requesting renewal, any changes in rent, and other relevant terms.",
+                            "HYDEs": [
+                                "The lease can be renewed with a 3% increase in rent and a written request 60 days before the lease expiry.",
+                                "There is an automatic renewal unless the lessee provides a written notice of non-renewal 30 days prior to lease end.",
+                                "For lease renewal, the lessee must undergo another credit check and get approval from the lessor.",
+                                "The lessee can renew the lease at the same rent for up to two consecutive terms.",
+                                "Lease renewal requires mutual agreement between the lessee and lessor, and a new contract must be signed."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Rent",
+            "questions": [
+                {
+                    "title": "Annual rent",
+                    "question": "What is the annual rent amount?",
+                    "definition": "The annual rent amount is the total cost of renting the property for one year, usually expressed in the local currency.",
+                    "HYDEs": [
+                        "$12,000",
+                        "$15,000",
+                        "$18,500",
+                        "$20,000",
+                        "$14,500"
+                    ]
+                },
+                {
+                    "title": "Payment frequency",
+                    "question": "Is the rent payment quarterly?",
+                    "definition": "Payment frequency refers to how often the rent is to be paid by the lessee to the lessor, whether that be monthly, quarterly, bi-annually, or annually.",
+                    "HYDEs": [
+                        "Yes, the rent is paid quarterly.",
+                        "No, the rent is paid monthly.",
+                        "No, the rent is paid annually.",
+                        "No, the rent is paid bi-annually.",
+                        "Yes, and there's a discount for paying quarterly."
+                    ]
+                },
+                {
+                    "title": "Revision",
+                    "question": "Is the rent subject to revision?",
+                    "definition": "Revision refers to the possibility of adjusting the rent amount during the lease term, typically based on factors like market conditions or a predetermined schedule outlined in the lease agreement.",
+                    "HYDEs": [
+                        "Yes, the rent is revised annually based on market conditions.",
+                        "No, the rent is fixed for the entire lease term.",
+                        "Yes, every two years there is a potential revision.",
+                        "Yes, but only if both parties mutually agree.",
+                        "Yes, in alignment with inflation rates."
+                    ]
+                },
+                {
+                    "title": "Revision index",
+                    "question": "What is the revision index?",
+                    "definition": "The revision index is a benchmark used to calculate any adjustments in the rent, often based on economic indicators like inflation or property values.",
+                    "HYDEs": [
+                        "Consumer Price Index (CPI)",
+                        "Average Market Rent Index",
+                        "Local Property Value Index",
+                        "National Rent Increase Average",
+                        "Inflation-adjusted base index"
+                    ]
+                },
+                {
+                    "title": "Security deposit amount",
+                    "question": "What is the amount of the security deposit?",
+                    "definition": "The security deposit amount is a sum of money paid upfront by the lessee to the lessor to cover any potential damages or unpaid rent during the lease term.",
+                    "HYDEs": [
+                        "$1,000",
+                        "Equivalent to two months' rent",
+                        "$1,500",
+                        "Equivalent to one month's rent",
+                        "$2,000"
+                    ]
+                },
+                {
+                    "title": "Type of guarantee",
+                    "question": "What are the guarantees for rent payment?",
+                    "definition": "The type of guarantee refers to any arrangements or collateral provided by the lessee to ensure the payment of rent and adherence to other terms of the lease agreement.",
+                    "HYDEs": [
+                        "Personal guarantor",
+                        "Bank guarantee",
+                        "Third-party collateral",
+                        "Prepaid rent for six months",
+                        "Corporate guarantee"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Change of Control",
+            "questions": [
+                {
+                    "title": "Lessee change of control",
+                    "question": "Are there any provisions related to the change of control of the lessee?",
+                    "definition": "Provisions related to the change of control of the lessee concern how the lease is affected if the lessee undergoes a significant change in ownership or management during the lease term.",
+                    "HYDEs": [
+                        "Yes, change of control results in lease termination.",
+                        "No, there are no such provisions.",
+                        "Yes, the lessor must be notified and has a right to review the lease.",
+                        "Change of control requires mutual renegotiation of the lease.",
+                        "Yes, it leads to a rent revision."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Transfer of Lease",
+            "questions": [
+                {
+                    "title": "Unrestricted assignment of lease rights",
+                    "question": "Can the lessee transfer the lease without the lessor’s written consent?",
+                    "definition": "Unrestricted assignment of lease rights refers to the ability of the lessee to transfer their rights and responsibilities under the lease to another party without requiring the lessor’s written consent.",
+                    "HYDEs": [
+                        "Yes, the lessee can freely transfer the lease.",
+                        "No, written consent from the lessor is mandatory.",
+                        "Yes, but only to affiliated entities.",
+                        "No, except under certain predefined conditions.",
+                        "Yes, but the lessor must be notified within 30 days."
+                    ]
+                },
+                {
+                    "title": "Lease transfer (to whom)",
+                    "question": "By exception to whom can the lease rights be assigned?",
+                    "definition": "This refers to any specific exceptions noted in the lease agreement that allow the lessee to transfer the lease rights to another party, often detailing to whom the rights can be assigned.",
+                    "HYDEs": [
+                        "To a parent company or subsidiary.",
+                        "To a partner or joint venture entity.",
+                        "To any entity with a similar business model.",
+                        "To a successor in a merger or acquisition.",
+                        "There are no exceptions specified."
+                    ]
+                },
+                {
+                    "title": "Subleasing (yes/no)",
+                    "question": "Can the lessee sublease the premises?",
+                    "definition": "Subleasing refers to the lessee’s right to lease the premises to a third party while still maintaining their lease agreement with the lessor.",
+                    "HYDEs": [
+                        "Yes, with prior notification to the lessor.",
+                        "No, subleasing is strictly prohibited.",
+                        "Yes, but only a portion of the premises.",
+                        "Yes, but only for a limited duration.",
+                        "Only with written consent from the lessor."
+                    ]
+                },
+                {
+                    "title": "Subleasing (to whom)",
+                    "question": "By exception to whom can the premises be subleased without prior authorization from the lessor?",
+                    "definition": "This refers to any specific parties or conditions under which the lessee can sublease the premises without requiring prior authorization from the lessor.",
+                    "HYDEs": [
+                        "To any affiliated company of the lessee.",
+                        "For non-commercial or non-profit activities.",
+                        "To a subsidiary or partner entity.",
+                        "For events or temporary use scenarios.",
+                        "There are no such exceptions."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Rent",
+            "questions": [
+                {
+                    "title": "Annual rent",
+                    "question": "What is the annual rent amount?",
+                    "definition": "The annual rent amount is the total cost of renting the property for one year, usually expressed in the local currency.",
+                    "HYDEs": [
+                        "$12,000",
+                        "$15,000",
+                        "$18,500",
+                        "$20,000",
+                        "$14,500"
+                    ]
+                },
+                {
+                    "title": "Payment frequency",
+                    "question": "Is the rent payment quarterly?",
+                    "definition": "Payment frequency refers to how often the rent is to be paid by the lessee to the lessor, whether that be monthly, quarterly, bi-annually, or annually.",
+                    "HYDEs": [
+                        "Yes, the rent is paid quarterly.",
+                        "No, the rent is paid monthly.",
+                        "No, the rent is paid annually.",
+                        "No, the rent is paid bi-annually.",
+                        "Yes, and there's a discount for paying quarterly."
+                    ]
+                },
+                {
+                    "title": "Revision",
+                    "question": "Is the rent subject to revision?",
+                    "definition": "Revision refers to the possibility of adjusting the rent amount during the lease term, typically based on factors like market conditions or a predetermined schedule outlined in the lease agreement.",
+                    "HYDEs": [
+                        "Yes, the rent is revised annually based on market conditions.",
+                        "No, the rent is fixed for the entire lease term.",
+                        "Yes, every two years there is a potential revision.",
+                        "Yes, but only if both parties mutually agree.",
+                        "Yes, in alignment with inflation rates."
+                    ]
+                },
+                {
+                    "title": "Revision index",
+                    "question": "What is the revision index?",
+                    "definition": "The revision index is a benchmark used to calculate any adjustments in the rent, often based on economic indicators like inflation or property values.",
+                    "HYDEs": [
+                        "Consumer Price Index (CPI)",
+                        "Average Market Rent Index",
+                        "Local Property Value Index",
+                        "National Rent Increase Average",
+                        "Inflation-adjusted base index"
+                    ]
+                },
+                {
+                    "title": "Security deposit amount",
+                    "question": "What is the amount of the security deposit?",
+                    "definition": "The security deposit amount is a sum of money paid upfront by the lessee to the lessor to cover any potential damages or unpaid rent during the lease term.",
+                    "HYDEs": [
+                        "$1,000",
+                        "Equivalent to two months' rent",
+                        "$1,500",
+                        "Equivalent to one month's rent",
+                        "$2,000"
+                    ]
+                },
+                {
+                    "title": "Type of guarantee",
+                    "question": "What are the guarantees for rent payment?",
+                    "definition": "The type of guarantee refers to any arrangements or collateral provided by the lessee to ensure the payment of rent and adherence to other terms of the lease agreement.",
+                    "HYDEs": [
+                        "Personal guarantor",
+                        "Bank guarantee",
+                        "Third-party collateral",
+                        "Prepaid rent for six months",
+                        "Corporate guarantee"
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Change of Control",
+            "questions": [
+                {
+                    "title": "Lessee change of control",
+                    "question": "Are there any provisions related to the change of control of the lessee?",
+                    "definition": "Provisions related to the change of control of the lessee concern how the lease is affected if the lessee undergoes a significant change in ownership or management during the lease term.",
+                    "HYDEs": [
+                        "Yes, change of control results in lease termination.",
+                        "No, there are no such provisions.",
+                        "Yes, the lessor must be notified and has a right to review the lease.",
+                        "Change of control requires mutual renegotiation of the lease.",
+                        "Yes, it leads to a rent revision."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Transfer of Lease",
+            "questions": [
+                {
+                    "title": "Unrestricted assignment of lease rights",
+                    "question": "Can the lessee transfer the lease without the lessor’s written consent?",
+                    "definition": "Unrestricted assignment of lease rights refers to the ability of the lessee to transfer their rights and responsibilities under the lease to another party without requiring the lessor’s written consent.",
+                    "HYDEs": [
+                        "Yes, the lessee can freely transfer the lease.",
+                        "No, written consent from the lessor is mandatory.",
+                        "Yes, but only to affiliated entities.",
+                        "No, except under certain predefined conditions.",
+                        "Yes, but the lessor must be notified within 30 days."
+                    ]
+                },
+                {
+                    "title": "Lease transfer (to whom)",
+                    "question": "By exception to whom can the lease rights be assigned?",
+                    "definition": "This refers to any specific exceptions noted in the lease agreement that allow the lessee to transfer the lease rights to another party, often detailing to whom the rights can be assigned.",
+                    "HYDEs": [
+                        "To a parent company or subsidiary.",
+                        "To a partner or joint venture entity.",
+                        "To any entity with a similar business model.",
+                        "To a successor in a merger or acquisition.",
+                        "There are no exceptions specified."
+                    ]
+                },
+                {
+                    "title": "Subleasing (yes/no)",
+                    "question": "Can the lessee sublease the premises?",
+                    "definition": "Subleasing refers to the lessee’s right to lease the premises to a third party while still maintaining their lease agreement with the lessor.",
+                    "HYDEs": [
+                        "Yes, with prior notification to the lessor.",
+                        "No, subleasing is strictly prohibited.",
+                        "Yes, but only a portion of the premises.",
+                        "Yes, but only for a limited duration.",
+                        "Only with written consent from the lessor."
+                    ]
+                },
+                {
+                    "title": "Subleasing (to whom)",
+                    "question": "By exception to whom can the premises be subleased without prior authorization from the lessor?",
+                    "definition": "This refers to any specific parties or conditions under which the lessee can sublease the premises without requiring prior authorization from the lessor.",
+                    "HYDEs": [
+                        "To any affiliated company of the lessee.",
+                        "For non-commercial or non-profit activities.",
+                        "To a subsidiary or partner entity.",
+                        "For events or temporary use scenarios.",
+                        "There are no such exceptions."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Specific Clauses",
+            "questions": [
+                {
+                    "title": "Condition of the premises upon return",
+                    "question": "In what condition must the Lessee return the premises?",
+                    "definition": "This refers to the state in which the lessee must leave the premises at the end of the lease term, often requiring that the property be in the same or similar condition as at the beginning of the lease, barring normal wear and tear.",
+                    "HYDEs": [
+                        "In the same condition as received, excluding normal wear and tear.",
+                        "Cleaned and without any damages or alterations.",
+                        "In a condition suitable for immediate re-letting.",
+                        "In accordance with any conditions specified during the pre-exit inspection.",
+                        "Any damages or wear beyond normal use must be repaired."
+                    ]
+                },
+                {
+                    "title": "Restoration to original condition",
+                    "question": "Must the premises be restored to their original condition?",
+                    "definition": "Restoration to original condition refers to whether the lessee is required to undo any alterations or improvements made during the lease term, returning the premises to their state at the commencement of the lease.",
+                    "HYDEs": [
+                        "Yes, all alterations must be undone.",
+                        "No, improvements can remain if they add value.",
+                        "Only major structural alterations need to be restored.",
+                        "No, but the lessee may be compensated for improvements.",
+                        "Yes, unless otherwise agreed in writing."
+                    ]
+                },
+                {
+                    "title": "State of risks and pollution (ERP)",
+                    "question": "Is the statement of risks and pollution annexed to the lease?",
+                    "definition": "The statement of risks and pollution (ERP) is a document that may be attached to the lease agreement to disclose any known risks or pollutants associated with the premises.",
+                    "HYDEs": [
+                        "Yes, an ERP is attached as Annex A.",
+                        "No, there are no known risks or pollutants.",
+                        "Yes, and the lessee acknowledges receipt and understanding.",
+                        "No, but a separate environmental assessment is available upon request.",
+                        "Yes, and it is periodically updated."
+                    ]
+                },
+                {
+                    "title": "Energy performance diagnosis",
+                    "question": "Is the Energy Performance Diagnosis or DPE annexed to the lease?",
+                    "definition": "The Energy Performance Diagnosis (DPE) is a document that provides information on the energy efficiency and environmental impact of the premises, and may be annexed to the lease agreement as a point of disclosure and compliance with local regulations.",
+                    "HYDEs": [
+                        "Yes, the DPE is annexed as Document B.",
+                        "No, but it is available upon request.",
+                        "Yes, and it indicates the premises are energy-efficient.",
+                        "No, the building is exempt from DPE requirements.",
+                        "Yes, and it's updated every five years."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Jurisdiction and Applicable Law",
+            "questions": [
+                {
+                    "title": "Applicable law",
+                    "question": "What is the applicable law?",
+                    "definition": "The applicable law refers to the legal framework under which the lease agreement operates, often determined by the location of the premises.",
+                    "HYDEs": [
+                        "The laws of New York State.",
+                        "The federal laws of Australia.",
+                        "The laws of the United Kingdom.",
+                        "The provincial laws of Ontario, Canada.",
+                        "The laws and regulations of the European Union."
+                    ]
+                },
+                {
+                    "title": "Competent jurisdiction",
+                    "question": "What is the competent jurisdiction?",
+                    "definition": "The competent jurisdiction refers to the legal authority that will govern any disputes arising from the lease agreement, often a court or arbitration panel located in the same region as the premises.",
+                    "HYDEs": [
+                        "The state courts of California.",
+                        "The High Court of London.",
+                        "The arbitration panel as per the arbitration clause in the lease.",
+                        "The federal courts of the United States.",
+                        "The Commercial Court of Paris."
+                    ]
+                }
+            ]
+        }
     ]
-  }
-  
+}
